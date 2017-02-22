@@ -1,0 +1,72 @@
+@media screen and (max-width: 320px)
+{
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+
+}
+
+@media screen and (min-width: 1200px)
+{
+
+}
+
+body {
+	text-align: center;
+	margin: 0px
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: green;
+	border: 2px solid black;
+	margin-bottom: 50px
+}
+.chara, .map, .story, .about {
+	width: 75%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border: 2px solid black
+}
+
+.chara {
+	background-color: blue
+}
+
+.chara p {
+	visibility: hidden
+}
+
+.map {
+	background-color: yellow
+}
+
+.map p {
+	visibility: hidden
+}
+
+.story {
+	background-color: red
+}
+
+.story p {
+	visibility: hidden
+}
+
+.about {
+	background-color: purple
+}
+
+.about p {
+	visibility: hidden
+}
