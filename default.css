@@ -4,8 +4,12 @@
 		font-size: 12px
 	}
 	
-	.btchara {
+	.btchara, .btmap, .btstory, .btabout {
 		font-size: 10px	
+	}
+	
+	.subtitle {
+		font-size: 14px	
 	}
 }
 
@@ -15,8 +19,12 @@
 		font-size: 14px
 	}
 	
-	.btchara {
+	.btchara, .btmap, .btstory, .btabout {
 		font-size: 12px	
+	}
+	
+	.subtitle {
+		font-size: 16px	
 	}
 }
 
@@ -26,8 +34,12 @@
 		font-size: 16px
 	}
 	
-	.btchara {
+	.btchara, .btmap, .btstory, .btabout {
 		font-size: 14px	
+	}
+	
+	.subtitle {
+		font-size: 18px	
 	}
 }
 
@@ -37,8 +49,12 @@
 		font-size: 18px
 	}
 	
-	.btchara {
+	.btchara, .btmap, .btstory, .btabout {
 		font-size: 16px	
+	}
+	
+	.subtitle {
+		font-size: 20px	
 	}
 }
 
@@ -57,7 +73,7 @@ a {
 
 body {
 	margin: 0px;
-	text-align: center	
+	text-align: center;
 }
 
 .btchara, .btmap, .btstory, .btabout {
@@ -65,8 +81,8 @@ body {
 	margin-right: auto;
 	margin-bottom: 8px;
 	border: 1px solid black;
-	width: 20%;
-	border-radius: 4px;
+	width: 25%;
+	border-radius: 15px;
 	vertical-align: top;
 	font-weight: bold;
 }
@@ -92,10 +108,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	border: 2px solid black
+	border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .chara {
+	background-image: url(./img/bookbg.png);
 }
 
 .chara p {
@@ -118,6 +137,7 @@ body {
 }
 
 .map {
+	background-image: url(./img/map.jpg);
 }
 
 .map p {
@@ -136,4 +156,9 @@ body {
 
 .story p {
 	/*visibility: hidden*/
+}
+
+.subtitle {
+	font-weight: bold;
+	margin-top: 5px
 }
