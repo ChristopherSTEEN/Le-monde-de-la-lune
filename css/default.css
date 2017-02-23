@@ -120,6 +120,10 @@ table {
 	
 	/* About page recursive style */
 	
+	.aboutreturn {
+		font-size: 8px
+	}
+	
 	.abtext, .copyr, .copyr2, .creadesc {
 		font-size: 12px
 	}
@@ -155,6 +159,10 @@ table {
 	}
 	
 	/* About page recursive style */
+	
+	.aboutreturn {
+		font-size: 10px
+	}	
 	
 	.abtext, .copyr, .copyr2, .creadesc {
 		font-size: 14px
@@ -193,6 +201,10 @@ table {
 	
 	/* About page recursive style */
 	
+	.aboutreturn {
+		font-size: 16px
+	}	
+	
 	.abtext, .copyr, .copyr2 .creadesc {
 		font-size: 16px
 	}
@@ -230,6 +242,10 @@ table {
 	
 	/* About page recursive style */
 	
+	.aboutreturn {
+		font-size: 20px
+	}	
+	
 	.abtext, .copyr, .copyr2, .creadesc {
 		font-size: 18px
 	}
@@ -244,7 +260,7 @@ table {
 /* General style */
 
 a {
-	color: black;
+	color: inherit;
 	font-weight: bold;
 	text-decoration: none
 	
@@ -256,6 +272,10 @@ body {
 	background-size: cover;
 	margin: 0px;
 	text-align: center
+}
+
+span {
+	font-weight: bold;
 }
 
 /* End of General style */
@@ -278,20 +298,11 @@ body {
 	margin-bottom: 10px
 }
 
-.btabout {
-	background-color: #FF00FF
-}
-
-.btchara {
-	background-color: #AAAAFF
-}
-
-.btmap {
-	background-color: #FFFF00
-}
-
-.btstory {
-	background-color: #FF0000
+.btabout, .btchara, .btmap, .btstory {
+	background-image: url(../img/button.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF
 }
 
 /* End of Button style */
@@ -356,16 +367,40 @@ body {
 	width: 80%
 }
 
+.aboutreturn {
+	background-image: url(../img/creatorbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+
+.aboutreturn p {
+	display: inline;
+}
+
+.aboutreturn .returnhidden {
+	visibility: hidden;
+}
+
+.aboutreturn:hover .returnhidden {
+	visibility: visible;
+}
+
 .aboutfooter {
 	margin-bottom: 10px
 }
 
-.abtext, .copyr2, .creatext {
+.abtext, .copyr2, .creadesc {
 	text-align: left;
 } 
 
 .abtitle, .copyrtitle, .creatitle {
-	font-weight: bold
+	font-weight: bold;
+	margin-top: 0px
 }
 
 .creacontainer {
@@ -397,7 +432,7 @@ body {
 	background-color: white;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
-	margin: 5%;
+	margin: 0% 5%;
 	padding: 2% 0%;
 	width: 89%
 }
