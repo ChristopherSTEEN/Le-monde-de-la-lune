@@ -1,0 +1,423 @@
+/* ########## */
+/* Reset */
+/* ########## */
+
+/*
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-size: 100%;
+
+	font: inherit;
+
+	vertical-align: baseline;
+
+} */
+
+/* HTML5 display-role reset for older browsers */
+
+
+/*
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+
+}
+
+body {
+
+	line-height: 1;
+
+}
+
+ol, ul {
+
+	list-style: none;
+
+}
+
+blockquote, q {
+
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+	content: '';
+
+	content: none;
+
+}
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}  */
+
+/* Media Query */
+
+@media screen and (max-width: 319px)
+{
+	/* General recursive style */	
+	
+	body {
+		font-size: 14px
+	}
+	
+	/* Button recursive style */
+	
+	.btabout, .btchara, .btmap, .btstory {
+		font-size: 12px;
+		width: 75%
+	}
+	
+	/* Index recursive style */
+	
+	.header { 
+		margin-bottom: 20px	
+	}
+	
+	.subtitle {
+		font-size: 18px	
+	}
+	
+	/* About page recursive style */
+	
+	.abtext, .copyr, .copyr2, .creadesc {
+		font-size: 12px
+	}
+	
+	.abtitle, .copyrtitle, .creatitle {
+		font-size: 15px;	
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+	/* General recursive style */	
+	
+	body {
+		font-size: 16px
+	}
+	
+	/* Button recursive style */
+	
+	.btabout, .btchara, .btmap, .btstory {
+		font-size: 12px;
+		width: 50%
+	}
+	
+	/* Index recursive style */
+	
+	.header { 
+		margin-bottom: 30px	
+	}	
+	
+	.subtitle {
+		font-size: 20px	
+	}
+	
+	/* About page recursive style */
+	
+	.abtext, .copyr, .copyr2, .creadesc {
+		font-size: 14px
+	}
+	
+	.abtitle, .copyrtitle, .creatitle {
+		font-size: 17px;	
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+
+	/* General recursive style */	
+	
+	body {
+		font-size: 18px
+	}
+	
+	/* Button recursive style */	
+	
+	.btabout, .btchara, .btmap, .btstory {
+		font-size: 14px;
+		width: 40%
+	}
+	
+	/* Index recursive style */
+	
+	.header { 
+		margin-bottom: 40px	
+	}	
+	
+	.subtitle {
+		font-size: 22px	
+	}
+	
+	/* About page recursive style */
+	
+	.abtext, .copyr, .copyr2 .creadesc {
+		font-size: 16px
+	}
+	
+	.abtitle, .copyrtitle .creatitle {
+		font-size: 20px;	
+	}
+}
+
+@media screen and (min-width: 1200px)
+{
+	
+	/* General recursive style */
+	
+	body {
+		font-size: 20px
+	}
+	
+	/* Button recursive style */
+	
+	.btabout, .btchara, .btmap, .btstory {
+		font-size: 16px;
+		width: 30%	
+	}
+	
+	/* Index recursive style */
+	
+	.header { 
+		margin-bottom: 50px	
+	}	
+	
+	.subtitle {
+		font-size: 24px	
+	}
+	
+	/* About page recursive style */
+	
+	.abtext, .copyr, .copyr2, .creadesc {
+		font-size: 18px
+	}
+	
+	.abtitle, .copyrtitle, .creatitle {
+		font-size: 22px;	
+	}
+}
+
+/* End of Media Query */
+
+/* General style */
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none
+	
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	margin: 0px;
+	text-align: center
+}
+
+/* End of General style */
+
+/* Button style */
+
+.btabout, .btchara, .btmap, .btstory {
+	border: 2px solid black;
+	border-radius: 15px;	
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.btabout:hover, .btchara:hover, .btmap:hover, .btstory:hover {
+	border: 1px solid black;
+	box-shadow: 3px 3px 3px black;
+	font-style: italic;
+	margin-bottom: 10px
+}
+
+.btabout {
+	background-color: #FF00FF
+}
+
+.btchara {
+	background-color: #AAAAFF
+}
+
+.btmap {
+	background-color: #FFFF00
+}
+
+.btstory {
+	background-color: #FF0000
+}
+
+/* End of Button style */
+
+/* Index style */
+
+.about {
+	background-image: url(../img/sky.jpg)
+}
+
+.about, .chara, .map, .story {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px #111111;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%
+}
+
+.chara {
+	background-image: url(../img/bookbg.png)
+}
+
+.header {
+	box-shadow: 0px 5px 5px black;
+	width: 100%
+}
+
+.map {
+	background-image: url(../img/map.jpg)
+}
+
+
+.story {
+	background-image: url(../img/story.jpg)
+}
+
+.subtitle {
+	font-weight: bold;
+	margin-top: 5px
+}
+
+/* End of Index style */
+
+/* About page style */
+
+.aboutcontainer, .aboutfooter, .creacontainer {
+	margin-top: 10px;
+	background-image: url(../img/creatorbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.aboutcontainer, .aboutfooter {
+	padding: 5%;
+	width: 80%
+}
+
+.aboutfooter {
+	margin-bottom: 10px
+}
+
+.abtext, .copyr2, .creatext {
+	text-align: left;
+} 
+
+.abtitle, .copyrtitle, .creatitle {
+	font-weight: bold
+}
+
+.creacontainer {
+	padding: 5% 0%;
+	width: 90%
+}
+
+.creadesc {
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;	
+	display: inline-block;
+	margin: 5%;
+	padding: 2% 2%;
+	vertical-align: top;
+	width: 40%
+}
+
+.creapic {
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;	
+	display: inline-block;	
+	margin: 5%;
+	vertical-align: top;
+	width: 30%
+}
+
+.creatitle {
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin: 5%;
+	padding: 2% 0%;
+	width: 89%
+}
+
+/* End of About page style */
+
+/* Coming Soon page style */
+
+.comsoon, .return {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%
+}
+
+.comsoon {
+	font-size: 10vw
+}
+
+.return {
+	font-size: 5vw
+}
+
+/* End of Coming Soon page style */
