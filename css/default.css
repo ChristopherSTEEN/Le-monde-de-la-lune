@@ -131,6 +131,20 @@ table {
 	.abtitle, .copyrtitle, .creatitle {
 		font-size: 15px;	
 	}
+	
+	.creadesc, .creapic {
+		display: block;
+		margin: 5% auto;
+		vertical-align: none	
+	}
+	
+	.creadesc {
+		width: 90%	
+	}
+	
+	.creapic {
+		width: 50%	
+	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px)
@@ -170,6 +184,20 @@ table {
 	
 	.abtitle, .copyrtitle, .creatitle {
 		font-size: 17px;	
+	}
+	
+	.creadesc, .creapic {
+		display: inline-block;
+		margin: 5%;
+		vertical-align: top	
+	}
+	
+	.creadesc {
+		width: 40%	
+	}
+	
+	.creapic {
+		width: 30%	
 	}
 }
 
@@ -212,6 +240,20 @@ table {
 	.abtitle, .copyrtitle .creatitle {
 		font-size: 20px;	
 	}
+	
+	.creadesc, .creapic {
+		display: inline-block;
+		margin: 5%;
+		vertical-align: top	
+	}
+	
+	.creadesc {
+		width: 40%	
+	}
+	
+	.creapic {
+		width: 30%	
+	}
 }
 
 @media screen and (min-width: 1200px)
@@ -253,6 +295,20 @@ table {
 	.abtitle, .copyrtitle, .creatitle {
 		font-size: 22px;	
 	}
+	
+	.creadesc, .creapic {
+		display: inline-block;
+		margin: 5%;
+		vertical-align: top	
+	}
+	
+	.creadesc {
+		width: 40%	
+	}
+	
+	.creapic {
+		width: 30%	
+	}
 }
 
 /* End of Media Query */
@@ -272,10 +328,6 @@ body {
 	background-size: cover;
 	margin: 0px;
 	text-align: center
-}
-
-span {
-	font-weight: bold;
 }
 
 /* End of General style */
@@ -309,6 +361,10 @@ span {
 
 /* Index style */
 
+.about, .chara, .header, .map, .story {
+	box-shadow: 5px 5px 5px black
+}
+
 .about {
 	background-image: url(../img/sky.jpg)
 }
@@ -317,7 +373,6 @@ span {
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: 2px solid black;
-	box-shadow: 5px 5px 5px #111111;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -329,7 +384,6 @@ span {
 }
 
 .header {
-	box-shadow: 0px 5px 5px black;
 	width: 100%
 }
 
@@ -351,15 +405,24 @@ span {
 
 /* About page style */
 
-.aboutcontainer, .aboutfooter, .creacontainer {
-	margin-top: 10px;
-	background-image: url(../img/creatorbg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+.aboutcontainer, .aboutfooter, .aboutreturn, .creacontainer, .creadesc, .creapic, .creatitle {
 	border: 2px solid black;
-	box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black
+}
+
+.aboutcontainer, .aboutfooter, .aboutreturn, .creacontainer, .creadesc, .creatitle {
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.aboutcontainer, .aboutfooter, .aboutreturn,  .creacontainer {
+	background-image: url(../img/creatorbg.png);
 	margin-left: auto;
 	margin-right: auto
+}
+
+.aboutcontainer, .aboutfooter, .creacontainer {
+	margin-top: 10px
 }
 
 .aboutcontainer, .aboutfooter {
@@ -368,13 +431,6 @@ span {
 }
 
 .aboutreturn {
-	background-image: url(../img/creatorbg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border: 2px solid black;
-	box-shadow: 5px 5px 5px black;
-	margin-left: auto;
-	margin-right: auto;
 	width: 50%
 }
 
@@ -409,33 +465,14 @@ span {
 }
 
 .creadesc {
-	border: 2px solid black;
-	box-shadow: 5px 5px 5px black;	
-	display: inline-block;
-	margin: 5%;
 	padding: 2% 2%;
-	vertical-align: top;
-	width: 40%
 }
 
 .creadesc, .creatitle {
-	background-image: url(../img/creawood.jpg);
-	background-repeat: no-repeat;
-	background-size: cover
-}
-
-.creapic {
-	border: 2px solid black;
-	box-shadow: 5px 5px 5px black;	
-	display: inline-block;	
-	margin: 5%;
-	vertical-align: top;
-	width: 30%
+	background-image: url(../img/creawood.jpg)
 }
 
 .creatitle {
-	border: 2px solid black;
-	box-shadow: 5px 5px 5px black;
 	margin: 0% 5%;
 	padding: 2% 0%;
 	width: 89%
