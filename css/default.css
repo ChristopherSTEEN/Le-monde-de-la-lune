@@ -409,7 +409,6 @@ span {
 }
 
 .creadesc {
-	background-color: white;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;	
 	display: inline-block;
@@ -417,6 +416,12 @@ span {
 	padding: 2% 2%;
 	vertical-align: top;
 	width: 40%
+}
+
+.creadesc, .creatitle {
+	background-image: url(../img/creawood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
 }
 
 .creapic {
@@ -429,7 +434,6 @@ span {
 }
 
 .creatitle {
-	background-color: white;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
 	margin: 0% 5%;
