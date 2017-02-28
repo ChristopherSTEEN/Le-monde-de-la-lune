@@ -431,6 +431,12 @@ body {
 }
 
 .aboutreturn {
+	margin-top: -5%;
+	width: 10%
+}
+
+.aboutreturn:hover {
+	margin-top: 0%;
 	width: 50%
 }
 
