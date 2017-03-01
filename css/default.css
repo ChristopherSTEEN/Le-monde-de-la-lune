@@ -1,3 +1,57 @@
+/*
+<===== ABOUT THIS CSS FILE =====>
+
+The media queries are one the start of the page and are divided in four parts:
+	- 319 pixels or less screens
+	- 320 pixels to 767 pixels screens
+	- 768 pixels to 1199 pixels screens
+	- 1200 pixels or more screens
+	
+In and out of media queries, classes are listed in this order:
+	- Global
+	- Index.html
+	- Database.html
+		=> Subsection of database.html
+	- Map.html
+		=> Subsection of map.html
+	- Story.html
+		=> Subsection of story.html
+	- About.html
+	- Comingsoon.html
+	
+The classes are named with her page assignation
+	PAGE-what*it*change
+	EXEMPLE: index-header-banner
+	
+Styles ares listed in the following order:
+	More global classes style to less global classes style
+	NOTE: They're also listed in alphabetical order
+	
+	EXEMPLE:
+	
+	.class-A,
+	.class-B,
+	.class-C {
+		...	
+	}
+	
+	.class-A,
+	.class-B {
+		...	
+	}
+	
+	.class-A {
+		...	
+	}
+	
+	.class-B {
+		...	
+	}
+	
+The classes attributes are also listed in alphabetical order
+*/
+
+
 /* =====> MEDIA QUERIES START <===== */
 
 @media screen and (max-width: 319px)
@@ -462,20 +516,21 @@ body {
 	visibility: visible;
 }
 
-/* Coming Soon page style */
+/* COMINGSOON.HTML */
 
-.comsoon, .return {
+.coming-soon-return,
+.coming-soon-text {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%
 }
 
-.comsoon {
-	font-size: 10vw
+.coming-soon-return {
+	font-size: 5vw
 }
 
-.return {
-	font-size: 5vw
+.coming-soon-text {
+	font-size: 10vw
 }
 
 /* End of Coming Soon page style */
