@@ -1,319 +1,258 @@
-/* ########## */
-/* Reset */
-/* ########## */
-
-/*
-html, body, div, span, applet, object, iframe,
-
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-
-a, abbr, acronym, address, big, cite, code,
-
-del, dfn, em, img, ins, kbd, q, s, samp,
-
-small, strike, strong, sub, sup, tt, var,
-
-b, u, i, center,
-
-dl, dt, dd, ol, ul, li,
-
-fieldset, form, label, legend,
-
-table, caption, tbody, tfoot, thead, tr, th, td,
-
-article, aside, canvas, details, embed, 
-
-figure, figcaption, footer, header, hgroup, 
-
-menu, nav, output, ruby, section, summary,
-
-time, mark, audio, video {
-
-	margin: 0;
-
-	padding: 0;
-
-	border: 0;
-
-	font-size: 100%;
-
-	font: inherit;
-
-	vertical-align: baseline;
-
-} */
-
-/* HTML5 display-role reset for older browsers */
-
-
-/*
-article, aside, details, figcaption, figure, 
-
-footer, header, hgroup, menu, nav, section {
-
-	display: block;
-
-}
-
-body {
-
-	line-height: 1;
-
-}
-
-ol, ul {
-
-	list-style: none;
-
-}
-
-blockquote, q {
-
-	quotes: none;
-
-}
-
-blockquote:before, blockquote:after,
-
-q:before, q:after {
-
-	content: '';
-
-	content: none;
-
-}
-
-table {
-
-	border-collapse: collapse;
-
-	border-spacing: 0;
-
-}  */
-
-/* Media Query */
+/* =====> MEDIA QUERIES START <===== */
 
 @media screen and (max-width: 319px)
 {
-	/* General recursive style */	
+	/* GLOBAL */	
 	
 	body {
 		font-size: 14px
 	}
 	
-	/* Button recursive style */
+	/* INDEX.HTML */
 	
-	.btabout, .btchara, .btmap, .btstory {
+	.index-about-button,
+	.index-database-button,
+	.index-map-button,
+	.index-story-button {
 		font-size: 12px;
 		width: 75%
 	}
 	
-	/* Index recursive style */
-	
-	.header { 
+	.index-header { 
 		margin-bottom: 20px	
 	}
 	
-	.subtitle {
+	.index-section-subtitle {
 		font-size: 18px	
 	}
 	
-	/* About page recursive style */
+	/* ABOUT.HTML */
 	
-	.aboutreturn {
-		font-size: 8px
-	}
-	
-	.abtext, .copyr, .copyr2, .creadesc {
+	.about-copyright-creator,
+	.about-copyright-tiers,
+	.about-creator-description,
+	.about-text {
 		font-size: 12px
 	}
 	
-	.abtitle, .copyrtitle, .creatitle {
+	.about-copyright-title,
+	.about-creator-title, 
+	.about-title {
 		font-size: 15px;	
 	}
 	
-	.creadesc, .creapic {
+	.about-creator-description,
+	.about-creator-picture {
 		display: block;
 		margin: 5% auto;
 		vertical-align: none	
 	}
 	
-	.creadesc {
+	.about-creator-description {
 		width: 90%	
 	}
 	
-	.creapic {
+	.about-creator-picture {
 		width: 50%	
 	}
+	
+	.about-return-button {
+		font-size: 8px
+	}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px)
 {
-	/* General recursive style */	
+	/* GLOBAL */	
 	
 	body {
 		font-size: 16px
 	}
 	
-	/* Button recursive style */
+	/* INDEX.HTML */
 	
-	.btabout, .btchara, .btmap, .btstory {
+	.index-about-button,
+	.index-database-button,
+	.index-map-button,
+	.index-story-button {
 		font-size: 12px;
 		width: 50%
 	}
 	
-	/* Index recursive style */
-	
-	.header { 
+	.index-header { 
 		margin-bottom: 30px	
 	}	
 	
-	.subtitle {
+	.index-section-subtitle {
 		font-size: 20px	
 	}
 	
-	/* About page recursive style */
+	/* ABOUT.HTML */
 	
-	.aboutreturn {
-		font-size: 10px
-	}	
-	
-	.abtext, .copyr, .copyr2, .creadesc {
+	.about-copyright-creator, 
+	.about-copyright-tiers, 
+	.about-creator-description, 
+	.about-text {
 		font-size: 14px
 	}
 	
-	.abtitle, .copyrtitle, .creatitle {
+	.about-copyright-title, 
+	.about-creator-title,
+	.about-title {
 		font-size: 17px;	
 	}
 	
-	.creadesc, .creapic {
+	.about-creator-description, 
+	.about-creator-picture {
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
 	}
 	
-	.creadesc {
+	.about-creator-description {
 		width: 40%	
 	}
 	
-	.creapic {
+	.about-creator-picture {
 		width: 30%	
 	}
+	
+	.about-return-button {
+		font-size: 10px
+	}	
+	
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px)
 {
 
-	/* General recursive style */	
+	/* GLOBAL */	
 	
 	body {
 		font-size: 18px
 	}
 	
-	/* Button recursive style */	
+	/* INDEX.HTML */	
 	
-	.btabout, .btchara, .btmap, .btstory {
+	.index-about-button,
+	.index-database-button,
+	.index-map-button,
+	.index-story-button {
 		font-size: 14px;
 		width: 40%
 	}
 	
-	/* Index recursive style */
-	
-	.header { 
+	.index-header { 
 		margin-bottom: 40px	
 	}	
 	
-	.subtitle {
+	.index-section-subtitle {
 		font-size: 22px	
 	}
 	
-	/* About page recursive style */
+	/* ABOUT.HTML */	
 	
-	.aboutreturn {
-		font-size: 16px
-	}	
-	
-	.abtext, .copyr, .copyr2 .creadesc {
+	.about-copyright-creator, 
+	.about-copyright-tiers, 
+	.about-creator-description,
+	.about-text {
 		font-size: 16px
 	}
 	
-	.abtitle, .copyrtitle .creatitle {
+	.about-copyright-title, 
+	.about-creator-title,
+	.about-title {
 		font-size: 20px;	
 	}
 	
-	.creadesc, .creapic {
+	.about-creator-description, 
+	.about-creator-picture {
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
 	}
 	
-	.creadesc {
+	.about-creator-description {
 		width: 40%	
 	}
 	
-	.creapic {
+	.about-creator-picture {
 		width: 30%	
 	}
+	
+	.about-return-button {
+		font-size: 16px
+	}
+	
 }
 
 @media screen and (min-width: 1200px)
 {
 	
-	/* General recursive style */
+	/* GLOBAL */
 	
 	body {
 		font-size: 20px
 	}
 	
-	/* Button recursive style */
+	/* INDEX.HTML */
 	
-	.btabout, .btchara, .btmap, .btstory {
+	.index-about-button,
+	.index-database-button,
+	.index-map-button,
+	.index-story-button {
 		font-size: 16px;
 		width: 30%	
 	}
 	
-	/* Index recursive style */
-	
-	.header { 
+	.index-header { 
 		margin-bottom: 50px	
 	}	
 	
-	.subtitle {
+	.index-section-subtitle {
 		font-size: 24px	
 	}
 	
-	/* About page recursive style */
+	/* ABOUT.HTML */	
 	
-	.aboutreturn {
-		font-size: 20px
-	}	
-	
-	.abtext, .copyr, .copyr2, .creadesc {
+	.about-copyright-creator, 
+	.about-copyright-tiers, 
+	.about-creator-description,
+	.about-text {
 		font-size: 18px
 	}
 	
-	.abtitle, .copyrtitle, .creatitle {
+	.about-copyright-title, 
+	.about-creator-title,
+	.about-title {
 		font-size: 22px;	
 	}
 	
-	.creadesc, .creapic {
+	.about-creator-description,
+	.about-creator-picture {
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
 	}
 	
-	.creadesc {
+	.about-creator-description {
 		width: 40%	
 	}
 	
-	.creapic {
+	.about-creator-picture {
 		width: 30%	
 	}
+	
+	.about-return-button {
+		font-size: 20px
+	}
+	
 }
 
-/* End of Media Query */
+/* =====> MEDIA QUERIES END <===== */
 
-/* General style */
+/* GLOBAL */
 
 a {
 	color: inherit;
@@ -330,46 +269,46 @@ body {
 	text-align: center
 }
 
-/* End of General style */
+/* INDEX.HTML */
 
-/* Button style */
+.index-about-section, 
+.index-database-section, 
+.index-header, 
+.index-map-section, 
+.index-story-section {
+	box-shadow: 5px 5px 5px black
+}
 
-.btabout, .btchara, .btmap, .btstory {
+.index-about-button,
+.index-database-button,
+.index-map-button,
+.index-story-button {
+	background-image: url(../img/button.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 2px solid black;
-	border-radius: 15px;	
+	border-radius: 15px;
+	color: #FFFFFF;
 	font-weight: bold;
 	margin-bottom: 8px;
 	margin-left: auto;
 	margin-right: auto
 }
 
-.btabout:hover, .btchara:hover, .btmap:hover, .btstory:hover {
+.index-about-button:hover,
+.index-database-button:hover,
+.index-map-button:hover,
+.index-story-button:hover {
 	border: 1px solid black;
 	box-shadow: 3px 3px 3px black;
 	font-style: italic;
 	margin-bottom: 10px
 }
 
-.btabout, .btchara, .btmap, .btstory {
-	background-image: url(../img/button.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #FFFFFF
-}
-
-/* End of Button style */
-
-/* Index style */
-
-.about, .chara, .header, .map, .story {
-	box-shadow: 5px 5px 5px black
-}
-
-.about {
-	background-image: url(../img/sky.jpg)
-}
-
-.about, .chara, .map, .story {
+.index-about-section, 
+.index-database-section, 
+.index-map-section, 
+.index-story-section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: 2px solid black;
@@ -379,112 +318,149 @@ body {
 	width: 75%
 }
 
-.chara {
+.index-about-section {
+	background-image: url(../img/sky.jpg)
+}
+
+.index-database-section {
 	background-image: url(../img/bookbg.png)
 }
 
-.header {
+.index-header {
 	width: 100%
 }
 
-.map {
+.index-map-section {
 	background-image: url(../img/map.jpg)
 }
 
-
-.story {
-	background-image: url(../img/story.jpg)
-}
-
-.subtitle {
+.index-section-subtitle {
 	font-weight: bold;
 	margin-top: 5px
 }
 
-/* End of Index style */
+.index-story-section {
+	background-image: url(../img/story.jpg)
+}
 
-/* About page style */
+/* DATABASE.HTML */
 
-.aboutcontainer, .aboutfooter, .aboutreturn, .creacontainer, .creadesc, .creapic, .creatitle {
+.database-return-button {
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin-left: 20%;
+	margin-top: 10px;
+	text-align: center;
+	width: 60%
+}
+
+.database-return-button p {
+	margin: 5px
+}
+
+/* ABOUT.HTML */
+
+.about-container,
+.about-creator-container, 
+.about-creator-description, 
+.about-creator-picture, 
+.about-creator-title, 
+.about-footer, 
+.about-return-button {
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black
 }
-
-.aboutcontainer, .aboutfooter, .aboutreturn, .creacontainer, .creadesc, .creatitle {
+ 
+.about-container,
+.about-creator-container, 
+.about-creator-description, 
+.about-creator-title, 
+.about-footer, 
+.about-return-button {
 	background-repeat: no-repeat;
 	background-size: cover
 }
 
-.aboutcontainer, .aboutfooter, .aboutreturn,  .creacontainer {
+.about-container,
+.about-creator-container, 
+.about-footer, 
+.about-return-button {
 	background-image: url(../img/creatorbg.png);
 	margin-left: auto;
 	margin-right: auto
 }
 
-.aboutcontainer, .aboutfooter, .creacontainer {
+.about-container,
+.about-creator-container, 
+.about-footer {
 	margin-top: 10px
 }
 
-.aboutcontainer, .aboutfooter {
-	padding: 5%;
-	width: 80%
-}
-
-.aboutreturn {
-	margin-top: -5%;
-	width: 10%
-}
-
-.aboutreturn:hover {
-	margin-top: 0%;
-	width: 50%
-}
-
-.aboutreturn p {
-	display: inline;
-}
-
-.aboutreturn .returnhidden {
-	visibility: hidden;
-}
-
-.aboutreturn:hover .returnhidden {
-	visibility: visible;
-}
-
-.aboutfooter {
-	margin-bottom: 10px
-}
-
-.abtext, .copyr2, .creadesc {
+.about-copyright-tiers, 
+.about-creator-description,
+.about-text {
 	text-align: left;
 } 
 
-.abtitle, .copyrtitle, .creatitle {
+.about-copyright-title, 
+.about-creator-title,
+.about-title {
 	font-weight: bold;
 	margin-top: 0px
 }
 
-.creacontainer {
+.about-container, 
+.about-footer {
+	padding: 5%;
+	width: 80%
+}
+
+.about-creator-description, 
+.about-creator-title {
+	background-image: url(../img/creawood.jpg)
+}
+
+.about-creator-container {
 	padding: 5% 0%;
 	width: 90%
 }
 
-.creadesc {
+.about-creator-description {
 	padding: 2% 2%;
 }
 
-.creadesc, .creatitle {
-	background-image: url(../img/creawood.jpg)
-}
-
-.creatitle {
+.about-creator-title {
 	margin: 0% 5%;
 	padding: 2% 0%;
 	width: 89%
 }
 
-/* End of About page style */
+.about-footer {
+	margin-bottom: 10px
+}
+
+.about-return-button {
+	margin-top: -5%;
+	width: 10%
+}
+
+.about-return-button:hover {
+	margin-top: 0%;
+	width: 50%
+}
+
+.about-return-button p {
+	display: inline;
+}
+
+.about-return-button .about-return-hidden {
+	visibility: hidden;
+}
+
+.about-return-button:hover .about-return-hidden {
+	visibility: visible;
+}
 
 /* Coming Soon page style */
 
