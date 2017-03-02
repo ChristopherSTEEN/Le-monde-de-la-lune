@@ -64,20 +64,24 @@ The classes attributes are also listed in alphabetical order
 	
 	/* INDEX.HTML */
 	
-	.index-about-button,
-	.index-database-button,
-	.index-map-button,
-	.index-story-button {
-		font-size: 12px;
-		width: 75%
-	}
-	
 	.index-header { 
 		margin-bottom: 20px	
 	}
 	
-	.index-section-subtitle {
+	.index-section-button {
+		font-size: 12px;
+		width: 75%
+	}
+	
+	.index-section-title {
 		font-size: 18px	
+	}
+	
+	/* DATABASE.HTML */
+	
+	.database-section-button {
+		font-size: 12px;
+		width: 75%
 	}
 	
 	/* ABOUT.HTML */
@@ -126,20 +130,24 @@ The classes attributes are also listed in alphabetical order
 	
 	/* INDEX.HTML */
 	
-	.index-about-button,
-	.index-database-button,
-	.index-map-button,
-	.index-story-button {
-		font-size: 12px;
-		width: 50%
-	}
-	
 	.index-header { 
 		margin-bottom: 30px	
 	}	
 	
-	.index-section-subtitle {
+	.index-section-button {
+		font-size: 12px;
+		width: 50%
+	}
+	
+	.index-section-title {
 		font-size: 20px	
+	}
+	
+	/* DATABASE.HTML */
+	
+	.database-section-button {
+		font-size: 12px;
+		width: 50%
 	}
 	
 	/* ABOUT.HTML */
@@ -189,20 +197,24 @@ The classes attributes are also listed in alphabetical order
 	
 	/* INDEX.HTML */	
 	
-	.index-about-button,
-	.index-database-button,
-	.index-map-button,
-	.index-story-button {
+	.index-header { 
+		margin-bottom: 40px	
+	}
+
+	.index-section-button {
 		font-size: 14px;
 		width: 40%
 	}
 	
-	.index-header { 
-		margin-bottom: 40px	
-	}	
-	
-	.index-section-subtitle {
+	.index-section-title {
 		font-size: 22px	
+	}
+	
+	/* DATABASE.HTML */
+	
+	.database-section-button {
+		font-size: 14px;
+		width: 40%
 	}
 	
 	/* ABOUT.HTML */	
@@ -252,20 +264,24 @@ The classes attributes are also listed in alphabetical order
 	
 	/* INDEX.HTML */
 	
-	.index-about-button,
-	.index-database-button,
-	.index-map-button,
-	.index-story-button {
+	.index-header { 
+		margin-bottom: 50px	
+	}
+	
+	.index-section-button {
 		font-size: 16px;
 		width: 30%	
 	}
 	
-	.index-header { 
-		margin-bottom: 50px	
-	}	
-	
-	.index-section-subtitle {
+	.index-section-title {
 		font-size: 24px	
+	}
+	
+	/* DATABASE.HTML */
+	
+	.database-section-button {
+		font-size: 16px;
+		width: 30%
 	}
 	
 	/* ABOUT.HTML */	
@@ -333,32 +349,6 @@ body {
 	box-shadow: 5px 5px 5px black
 }
 
-.index-about-button,
-.index-database-button,
-.index-map-button,
-.index-story-button {
-	background-image: url(../img/button.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border: 2px solid black;
-	border-radius: 15px;
-	color: #FFFFFF;
-	font-weight: bold;
-	margin-bottom: 8px;
-	margin-left: auto;
-	margin-right: auto
-}
-
-.index-about-button:hover,
-.index-database-button:hover,
-.index-map-button:hover,
-.index-story-button:hover {
-	border: 1px solid black;
-	box-shadow: 3px 3px 3px black;
-	font-style: italic;
-	margin-bottom: 10px
-}
-
 .index-about-section, 
 .index-database-section, 
 .index-map-section, 
@@ -388,7 +378,27 @@ body {
 	background-image: url(../img/map.jpg)
 }
 
-.index-section-subtitle {
+.index-section-button {
+	background-image: url(../img/button.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	border-radius: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.index-section-button:hover {
+	border: 1px solid black;
+	box-shadow: 3px 3px 3px black;
+	font-style: italic;
+	margin-bottom: 10px
+}
+
+.index-section-title {
 	font-weight: bold;
 	margin-top: 5px
 }
@@ -399,18 +409,53 @@ body {
 
 /* DATABASE.HTML */
 
+.database-characters-section, 
+.database-monsters-section, 
+.database-others-section, 
+.database-plants-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%
+}
+
 .database-return-button {
 	background-color: white;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
+	margin-bottom: 20px;
 	margin-left: 20%;
 	margin-top: 10px;
+	position: fixed;
 	text-align: center;
 	width: 60%
 }
 
 .database-return-button p {
 	margin: 5px
+}
+
+.database-section-button {
+	background-image: url(../img/button.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	border-radius: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.database-section-button:hover {
+	border: 1px solid black;
+	box-shadow: 3px 3px 3px black;
+	font-style: italic;
+	margin-bottom: 10px
 }
 
 /* ABOUT.HTML */
@@ -420,8 +465,7 @@ body {
 .about-creator-description, 
 .about-creator-picture, 
 .about-creator-title, 
-.about-footer, 
-.about-return-button {
+.about-footer {
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black
 }
@@ -430,16 +474,14 @@ body {
 .about-creator-container, 
 .about-creator-description, 
 .about-creator-title, 
-.about-footer, 
-.about-return-button {
+.about-footer {
 	background-repeat: no-repeat;
 	background-size: cover
 }
 
 .about-container,
 .about-creator-container, 
-.about-footer, 
-.about-return-button {
+.about-footer {
 	background-image: url(../img/creatorbg.png);
 	margin-left: auto;
 	margin-right: auto
@@ -495,25 +537,19 @@ body {
 }
 
 .about-return-button {
-	margin-top: -5%;
-	width: 10%
-}
-
-.about-return-button:hover {
-	margin-top: 0%;
-	width: 50%
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	margin-top: 10px;
+	position: fixed;
+	text-align: center;
+	width: 60%
 }
 
 .about-return-button p {
-	display: inline;
-}
-
-.about-return-button .about-return-hidden {
-	visibility: hidden;
-}
-
-.about-return-button:hover .about-return-hidden {
-	visibility: visible;
+	margin: 5px
 }
 
 /* COMINGSOON.HTML */
@@ -532,5 +568,3 @@ body {
 .coming-soon-text {
 	font-size: 10vw
 }
-
-/* End of Coming Soon page style */
