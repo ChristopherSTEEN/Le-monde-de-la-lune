@@ -79,9 +79,21 @@ The classes attributes are also listed in alphabetical order
 	
 	/* DATABASE.HTML */
 	
+	.database-return-button {
+		font-size: 10px
+	}
+	
 	.database-section-button {
 		font-size: 12px;
 		width: 75%
+	}
+	
+	.database-section-title {
+		font-size: 18px	
+	}
+	
+	.database-top-section {
+		margin-top: 50px
 	}
 	
 	/* ABOUT.HTML */
@@ -106,6 +118,10 @@ The classes attributes are also listed in alphabetical order
 		vertical-align: none	
 	}
 	
+	.about-creator-container {
+		margin-top: 50px
+	}
+	
 	.about-creator-description {
 		width: 90%	
 	}
@@ -115,7 +131,7 @@ The classes attributes are also listed in alphabetical order
 	}
 	
 	.about-return-button {
-		font-size: 8px
+		font-size: 10px
 	}
 
 }
@@ -145,9 +161,21 @@ The classes attributes are also listed in alphabetical order
 	
 	/* DATABASE.HTML */
 	
+	.database-return-button {
+		font-size: 10px
+	}
+	
 	.database-section-button {
 		font-size: 12px;
 		width: 50%
+	}
+	
+	.database-section-title {
+		font-size: 20px	
+	}
+	
+	.database-top-section {
+		margin-top: 60px
 	}
 	
 	/* ABOUT.HTML */
@@ -170,6 +198,10 @@ The classes attributes are also listed in alphabetical order
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
+	}
+	
+	.about-creator-container {
+		margin-top: 60px
 	}
 	
 	.about-creator-description {
@@ -212,9 +244,21 @@ The classes attributes are also listed in alphabetical order
 	
 	/* DATABASE.HTML */
 	
+	.database-return-button {
+		font-size: 16px
+	}
+	
 	.database-section-button {
 		font-size: 14px;
 		width: 40%
+	}
+	
+	.database-section-title {
+		font-size: 22px	
+	}
+	
+	.database-top-section {
+		margin-top: 70px
 	}
 	
 	/* ABOUT.HTML */	
@@ -237,6 +281,10 @@ The classes attributes are also listed in alphabetical order
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
+	}
+	
+	.about-creator-container {
+		margin-top: 70px
 	}
 	
 	.about-creator-description {
@@ -279,9 +327,21 @@ The classes attributes are also listed in alphabetical order
 	
 	/* DATABASE.HTML */
 	
+	.database-return-button {
+		font-size: 20px
+	}
+	
 	.database-section-button {
 		font-size: 16px;
 		width: 30%
+	}
+	
+	.database-section-title {
+		font-size: 24px	
+	}
+	
+	.database-top-section {
+		margin-top: 80px
 	}
 	
 	/* ABOUT.HTML */	
@@ -304,6 +364,10 @@ The classes attributes are also listed in alphabetical order
 		display: inline-block;
 		margin: 5%;
 		vertical-align: top	
+	}
+	
+	.about-creator-container {
+		margin-top: 80px
 	}
 	
 	.about-creator-description {
@@ -439,7 +503,9 @@ body {
 }
 
 .database-return-button {
-	background-color: white;
+	background-image: url(../img/return.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
 	margin-bottom: 20px;
@@ -475,10 +541,6 @@ body {
 	margin-bottom: 10px
 }
 
-.database-top-section {
-	margin-top: 7%
-}
-
 /* ABOUT.HTML */
 
 .about-container,
@@ -508,8 +570,7 @@ body {
 	margin-right: auto
 }
 
-.about-container,
-.about-creator-container, 
+.about-container, 
 .about-footer {
 	margin-top: 10px
 }
@@ -538,8 +599,15 @@ body {
 	background-image: url(../img/creawood.jpg)
 }
 
+.about-button-container {
+	width: 100%
+}
+
+.about-button-container p {
+	margin: 5px;
+}
+
 .about-creator-container {
-	margin-top: 7%;
 	padding: 5% 0%;
 	width: 90%
 }
@@ -559,7 +627,9 @@ body {
 }
 
 .about-return-button {
-	background-color: white;
+	background-image: url(../img/return.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
 	margin-bottom: 20px;
