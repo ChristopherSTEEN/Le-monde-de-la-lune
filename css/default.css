@@ -366,6 +366,14 @@ body {
 	background-image: url(../img/sky.jpg)
 }
 
+.index-button-container {
+	width: 100%
+}
+
+.index-button-container p {
+	margin: 5px;
+}
+
 .index-database-section {
 	background-image: url(../img/bookbg.png)
 }
@@ -422,6 +430,14 @@ body {
 	width: 75%
 }
 
+.database-button-container {
+	width: 100%
+}
+
+.database-button-container p {
+	margin: 5px;
+}
+
 .database-return-button {
 	background-color: white;
 	border: 2px solid black;
@@ -431,6 +447,7 @@ body {
 	margin-top: 10px;
 	position: fixed;
 	text-align: center;
+	top: 5px;
 	width: 60%
 }
 
@@ -456,6 +473,10 @@ body {
 	box-shadow: 3px 3px 3px black;
 	font-style: italic;
 	margin-bottom: 10px
+}
+
+.database-top-section {
+	margin-top: 7%
 }
 
 /* ABOUT.HTML */
@@ -518,6 +539,7 @@ body {
 }
 
 .about-creator-container {
+	margin-top: 7%;
 	padding: 5% 0%;
 	width: 90%
 }
@@ -545,6 +567,7 @@ body {
 	margin-top: 10px;
 	position: fixed;
 	text-align: center;
+	top: 5px;
 	width: 60%
 }
 
