@@ -11,7 +11,7 @@ In and out of media queries, classes are listed in this order:
 	- Global
 	- Index.html
 	- Database.html
-		=> Subsection of database.html
+		=> Dbcontent (Db-heroes + Db-ennemies + Db-town)
 	- Map.html
 		=> Subsection of map.html
 	- Story.html
@@ -545,6 +545,30 @@ body {
 
 .database-section-title {
 	font-weight: bold
+}
+
+/* 	DB-HEROES.HTML 
+	DB-ENNEMIES.HTML
+	DB-TOWN.HTML */
+
+.dbcontent-menu-container {
+	width: 100%
+}
+
+.dbcontent-menu-top {
+	background-image: url(../img/return.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 20%
+}
+
+.dbcontent-menu-top p {
+	margin: 5px
 }
 
 /* ABOUT.HTML */
