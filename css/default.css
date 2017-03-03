@@ -12,6 +12,9 @@ In and out of media queries, classes are listed in this order:
 	- Index.html
 	- Database.html
 		=> Dbcontent (Db-heroes + Db-ennemies + Db-town)
+		=> Dbmonsters (Db-ground + Db-swimming + Db-flying)
+		=> Dbplants (Db-flower + Db-trees + Db-seeplants + db-grass)
+		=> Dbothers (Db-rocks + Db-machines + Db-relics)
 	- Map.html
 		=> Subsection of map.html
 	- Story.html
