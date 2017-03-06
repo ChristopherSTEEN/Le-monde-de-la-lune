@@ -553,6 +553,11 @@ body {
 /* 	DB-HEROES.HTML 
 	DB-ENNEMIES.HTML
 	DB-TOWN.HTML */
+	
+.dbcontent-active-menu {
+	color: red
+}
+
 
 .dbcontent-menu-container {
 	width: 100%
@@ -577,6 +582,10 @@ body {
 /* 	DB-MONSTERS.HTML 
 	DB-SEAMONSTERS.HTML
 	DB-SKYMONSTERS.HTML */
+	
+.dbmonsters-active-menu {
+	color: red
+}
 
 .dbmonsters-menu-container {
 	width: 100%
