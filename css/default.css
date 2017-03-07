@@ -14,7 +14,7 @@ In and out of media queries, classes are listed in this order:
 		=> Dbcontent (Db-heroes + Db-ennemies + Db-town)
 		=> Dbmonsters (Db-monsters + Db-seamonsters + Db-skymonsters)
 		=> Dbplants (Db-flowers + Db-trees + Db-seaplants + db-grass)
-		=> Dbothers (Db-rocks + Db-machines + Db-relics)
+		=> Dbothers (Db-rocks + Db-objects + Db-relics)
 	- Map.html
 		=> Subsection of map.html
 	- Story.html
@@ -633,6 +633,34 @@ body {
 }
 
 .dbplants-menu-top p {
+	margin: 5px
+}
+
+/* 	DB-ROCKS.HTML 
+	DB-OBJECTS.HTML
+	DB-RELICS.HTML */
+	
+.dbothers-active-menu {
+	color: red
+}
+
+.dbothers-menu-container {
+	width: 100%
+}
+
+.dbothers-menu-top {
+	background-image: url(../img/return.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 20%
+}
+
+.dbothers-menu-top p {
 	margin: 5px
 }
 
