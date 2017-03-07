@@ -563,6 +563,21 @@ body {
 	width: 100%
 }
 
+.dbcontent-menu-bottom {
+	background-color: white;
+	border: 2px solid black;
+	bottom: 0;
+	margin-left: 45%;
+	opacity: 0.25;
+	position: fixed;
+	text-align: center;
+	width: 10%
+}
+
+.dbcontent-menu-bottom:hover {
+	opacity: 1
+}
+
 .dbcontent-menu-top {
 	background-image: url(../img/return.jpg);
 	background-repeat: no-repeat;
